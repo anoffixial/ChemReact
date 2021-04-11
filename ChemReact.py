@@ -25,7 +25,7 @@ if selection1 and selection2 in chemicals2:
         print("This reaction will give out :")
         print(d1[sol])
 
-else:
+if selection1 and selection2 not in chemicals2:
     print("Sorry, Wrong input.")
 
 print()
